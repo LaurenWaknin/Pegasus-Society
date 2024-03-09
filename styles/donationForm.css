@@ -44,3 +44,20 @@ button:hover {
 .hidden {
     display: none;
 }
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+}
