@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+#logo {
+    height: 150px;
+    width: 250px;
+}
+
+.navbar {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(12, 187, 246);
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+.container {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about-us{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.our-mission{
+    background-color: blanchedalmond;
+    padding: 20px;
+    font-size: 30px;
+}
+.rehabilitation{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.conclusion{
+    background-color: blanchedalmond;
+    padding: 40px;
+    font-size: 35px;
+    font-weight:bolder;
+    text-align: center;
+}

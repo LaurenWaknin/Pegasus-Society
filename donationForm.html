@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="styles/donationForm.css">
+</head>
+<body>
+
+<div class="donation-form">
+    <h2>Make a Donation</h2>
+    <form id="donationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="amount">Amount ($):</label>
+        <input type="number" id="amount" name="amount" min="1" required>
+
+        <button type="button" onclick="submitForm()">Donate Now</button>
+    </form>
+    <div id="successMessage" class="hidden">
+        <p>Thank you for your donation!</p>
+        <a href="index.html"><button class="home-btn">Back to HomePage</button></a>
+    </div>
+</div>
+
+<script src="donationForm.js"></script>
+</body>
+</html>

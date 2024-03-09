@@ -1,0 +1,87 @@
+    body {
+        margin-top: 275px;
+    }
+
+    #logo {
+        height: 150px;
+        width: 250px;
+    }
+
+    .navbar {
+        list-style-type: none;
+        position: fixed;
+        top: 0;
+        background-color: white;
+    }
+
+    li {
+        display: inline;
+        padding: 15px;
+        margin: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(12, 187, 246);
+    }
+
+    .navbar a:hover {
+        color: orange;
+    }
+
+    h3{
+        width: 50%;
+        margin: auto;
+        padding: 30px;
+        font-size: 30px;
+    }
+    
+    form {
+        width: 50%;
+        margin: auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+button {
+    font-size: 15px;
+    padding: 20px;
+    border: 2px solid beige;
+    border-radius: 20px;
+    background-color: bisque;
+    box-shadow: 5px 10px 8px #888888;
+    }
+
+    button:hover {
+        background-color: #2980b9;
+    }
+
+    .icon {
+        margin-left: 400px;
+        padding: 100px;
+    }
+
+    .fb, .tp {
+        padding: 5px;
+        height: 45px;
+        width: 45px;
+    }
+
+    p {
+        margin-left: 50px;
+        font-weight: bold;
+    }

@@ -1,0 +1,109 @@
+body{
+    margin-top: 175px;
+}
+
+#logo{
+    height: 150px;
+    width: 250px;
+}
+
+.navbar{
+    list-style-type: none;
+    position: fixed;
+    top:0;
+    background-color: white;
+}
+
+li{
+    display: inline;
+    padding: 15px;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(12, 187, 246);
+}
+
+.navbar a:hover{
+    color: orange;
+}
+
+h1{
+    text-align: center;
+}
+
+.brief-overview{
+    font-size: 30px;
+    padding: 20px;
+    margin: 30px;
+    margin-left: 180px;
+    margin-right: 150px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 800px;    
+}
+
+#carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+.carousel-buttons {
+    position: absolute;
+    bottom: -400px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: bisque;
+    border: 2px solid beige;
+    box-shadow: 5px 10px 8px #888888;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+
+button:hover {
+      background-color: #2980b9;
+  }
+
+.cta{
+    text-align: center;
+    font-size: 30px;
+}
+
+.cta-btn{
+    font-size: 15px;
+    padding: 20px;
+    border: 2px solid beige;
+    border-radius: 20px;
+    background-color: bisque;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.cta .img{
+    width: 100%;
+}
+
+footer{
+    font-weight: bold;
+}

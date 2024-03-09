@@ -1,0 +1,32 @@
+body {
+    margin-top: 175px;
+}
+
+#logo {
+    height: 150px;
+    width: 250px;
+}
+
+.navbar {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(12, 187, 246);
+}
+
+.navbar a:hover {
+    color: orange;
+}

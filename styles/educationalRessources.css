@@ -1,0 +1,66 @@
+body{
+    margin-top: 250px;
+}
+
+#logo {
+    height: 150px;
+    width: 250px;
+}
+
+.navbar {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.nav-li {
+    display: inline;
+    padding: 12px;
+    margin: 12px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(12, 187, 246);
+}
+
+.navbar a:hover {
+    color: orange;
+}
+
+.container-wrap{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+table, th, td{
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.sub-title{
+    margin-top: 55px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.facts{
+    padding: 50px;
+    background-color: blanchedalmond;
+}
+
+.tips{
+    padding: 50px;
+}
+
+.tips-li {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
