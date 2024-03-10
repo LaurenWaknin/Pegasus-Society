@@ -90,6 +90,7 @@ table, th, td {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        position: relative;
     }
 
     ul {

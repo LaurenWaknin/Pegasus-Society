@@ -103,7 +103,7 @@ table, th, td{
 }
 
 /* Media Query for Responsive Design */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -144,7 +144,7 @@ table, th, td{
         margin: 3px;
     }
 
-}
+} */
 
 /* Media Query for Responsive Design */
 @media screen and (max-width: 768px) {
@@ -152,6 +152,7 @@ table, th, td{
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        position: relative;
     }
 
     ul {
