@@ -55,7 +55,7 @@ a:hover {
     color: orange;
 }
 
-h1 {
+h1,h3 {
     text-align: center;
     padding-top: 200px;
     /* Adjusted padding for smaller screens */
