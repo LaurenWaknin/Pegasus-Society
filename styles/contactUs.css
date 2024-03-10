@@ -11,12 +11,15 @@ body {
 }
 
 .navbar {
+    margin-top: 0;
     background-color: white;
-    padding: 15px;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenlly;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .menu-toggle {
@@ -30,10 +33,13 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
+    /* Align items to the start (left) */
+    justify-content: flex-start;
+
 }
 
 li {
-    margin: 0 15px;
+    margin: 70px 15px;
     padding: 0px 25px;
 }
 
@@ -50,11 +56,13 @@ a:hover {
 }
 
 h1{
-    padding-top: 100px;
+    padding-top: 300px;
     margin-left: 100px;
+    text-align: center;
 }
 
 .contact-form {
+    margin-left: 800px;
     margin-top: 150px;
     max-width: 600px;
     padding: 20px;
@@ -127,5 +135,13 @@ p {
 
     li {
         margin: 10px 0;
+    }
+
+    h1{
+        padding-top: 0px;
+    }
+
+    .contact-form{
+        margin-left: 0;
     }
 }

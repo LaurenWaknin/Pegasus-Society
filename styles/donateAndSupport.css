@@ -13,7 +13,7 @@ body {
 .navbar {
     margin-top: -22px;
     background-color: white;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -68,7 +68,11 @@ h1{
 }
 
 .help-h1{
-    margin-top: -100px;
+    margin-top: 100px;
+}
+
+.how-help-h1{
+    margin-top: -150px ;
 }
 
 div{
@@ -80,6 +84,7 @@ div{
 
 .help-container{
     background-color: blanchedalmond;
+    border-radius: 20px;
     padding: 50px;
     margin: 20px;
 }
@@ -133,7 +138,7 @@ table, th, td{
     }
 
     .help-h1 {
-        font-size: 10px;
+        font-size: 20px;
         /* Adjusted font size for smaller screens */
     }
 
@@ -154,10 +159,6 @@ table, th, td{
         /* Adjusted font size for smaller screens */
     }
 
-    h1, p, div{
-        font-size: 15px;
-    }
-
     .cta-btn {
         font-size: 14px;
         /* Adjusted font size for smaller screens */
@@ -165,12 +166,10 @@ table, th, td{
         /* Adjusted padding for better spacing on smaller screens */
     }
 
-        table,
-        th,
-        td {
-            font-size: 14px;
-            padding: 8px;
-            margin: 3px;
-        }
+    table, th, td {
+        font-size: 14px;
+        padding: 8px;
+        margin: 3px;
+    }
 
 }

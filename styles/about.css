@@ -65,6 +65,7 @@ a:hover {
 
 .about-us, .our-mission, .rehabilitation {
     background-color: blanchedalmond;
+    border-radius: 20px;
     padding: 20px;
     margin-bottom: 10px;
     /* Add space between sections */
@@ -72,6 +73,7 @@ a:hover {
 }
 
 .conclusion {
+    border-radius: 20px;
     background-color: blanchedalmond;
     padding: 10px;
     margin-top: 10px;
