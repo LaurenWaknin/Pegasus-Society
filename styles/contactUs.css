@@ -57,12 +57,11 @@ a:hover {
 
 h1{
     padding-top: 300px;
-    margin-left: 100px;
     text-align: center;
 }
 
 .contact-form {
-    margin-left: 800px;
+    margin: 40%;
     margin-top: 150px;
     max-width: 600px;
     padding: 20px;
@@ -106,7 +105,7 @@ button:hover {
 }
 
 .icon {
-    margin-bottom: -800px;
+    margin-top: -900px;
     padding: 100px;
 }
 
@@ -137,12 +136,16 @@ p {
         margin: 10px 0;
     }
 
-    h1{
-        padding-top: 600px;
-        margin-left: -45px;
-    }
+        h1{
+            padding-top: 600px;
+            margin-left: -45px;
+        }
 
     .contact-form{
-        margin-left: 0;
+        margin: 0;
+    }
+
+    .icon{
+            margin-top: 0px;
     }
 }
