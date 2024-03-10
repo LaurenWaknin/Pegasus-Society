@@ -108,11 +108,17 @@ a:hover {
         padding: 500px 20px 0px 20px;
     }
 
+    .about-us{
+        margin-top: -400px;
+    }
+
     .about-us,
     .our-mission,
     .rehabilitation {
         font-size: 1.2rem;
+    
     }
+
 
     .conclusion {
         font-size: 1.5rem;
